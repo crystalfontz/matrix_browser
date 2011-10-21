@@ -4,7 +4,7 @@
 int main(int argc, char **argv)
 {
   QApplication app(argc, argv);
-  WebView view;
+  QWebView view;
   view.load(QUrl("http://localhost:8080"));
   view.setContextMenuPolicy(Qt::NoContextMenu);
   view.setWindowFlags(Qt::FramelessWindowHint);

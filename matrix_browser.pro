@@ -8,7 +8,6 @@ DEPENDPATH += .
 INCLUDEPATH += .
 QT       +=   webkit
 # Input
-HEADERS += test.h
 SOURCES += main.cpp
 
 # install

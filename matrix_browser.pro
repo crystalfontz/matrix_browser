@@ -7,6 +7,7 @@ TARGET = matrix_browser
 DEPENDPATH += .
 INCLUDEPATH += .
 #QT       +=   webkit
+QT		  +=   qtwebview
 
 # Input
 SOURCES += main.cpp
